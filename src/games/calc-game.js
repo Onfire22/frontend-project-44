@@ -24,5 +24,7 @@ const getAnswer = () => {
 };
 
 const description = 'What is the result of the expression?';
-startEngine(getAnswer, description);
-export default getAnswer;
+const startGame = () => {
+  startEngine(getAnswer, description);
+};
+export default startGame;

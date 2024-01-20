@@ -9,5 +9,8 @@ const getAnswer = () => {
   console.log(`Question: ${random}`);
   return expected;
 };
-startEngine(getAnswer, description);
-export default getAnswer;
+
+const startGame = () => {
+  startEngine(getAnswer, description);
+};
+export default startGame;
