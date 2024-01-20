@@ -10,8 +10,14 @@ even-game:
 calc-game:
 	node bin/brain-calc.js
 
+gcd-game:
+	node bin/brain-gcd.js
+
 publish:
 	npm publish --dry-run
 
 lint:
 	npx eslint .
+
+acces:
+	chmod +x bin/brain-gcd.js
