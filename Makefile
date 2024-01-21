@@ -18,6 +18,3 @@ publish:
 
 lint:
 	npx eslint .
-
-acces:
-	chmod +x bin/brain-progression.js
