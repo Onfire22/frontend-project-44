@@ -20,4 +20,4 @@ lint:
 	npx eslint .
 
 acces:
-	chmod +x bin/brain-gcd.js
+	chmod +x bin/brain-progression.js
