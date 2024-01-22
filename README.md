@@ -1,6 +1,15 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Onfire22/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Onfire22/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/01853bed23d228852ceb/maintainability)](https://codeclimate.com/github/Onfire22/frontend-project-44/maintainability)
+### Устновка и запуск:
+1. sudo npm link в корне проекта
+2. для запуска игры ввести в терминале:
+  + brain-even
+  + brain-calc
+  + brain-gcd
+  + brain-rpogression
+  + brain-prime
+
 ### Brain Even:
 [![asciicast](https://asciinema.org/a/lOyfWb42aQxHvgNWXcU0XC8Zp.svg)](https://asciinema.org/a/lOyfWb42aQxHvgNWXcU0XC8Zp)
 ### Brain Calc:
