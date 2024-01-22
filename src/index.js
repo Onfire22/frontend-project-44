@@ -11,7 +11,7 @@ const startEngine = (getAnswer, game) => {
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== expected) {
       console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${expected}"`);
-      console.log(`Let's try again, ${name}`);
+      console.log(`Let's try again, ${name}!`);
       break;
     }
     console.log('Correct!');
