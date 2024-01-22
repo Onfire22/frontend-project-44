@@ -13,7 +13,7 @@ const isPrime = (num) => {
 };
 
 const getAnswer = () => {
-  const random = getRandomNumber(0, 20);
+  const random = getRandomNumber(2, 20);
   const expected = isPrime(random) ? 'yes' : 'no';
   console.log(`Question: ${random}`);
   return expected;

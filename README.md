@@ -2,8 +2,12 @@
 [![Actions Status](https://github.com/Onfire22/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Onfire22/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/01853bed23d228852ceb/maintainability)](https://codeclimate.com/github/Onfire22/frontend-project-44/maintainability)
 ### Brain Even:
-[![Brain Even Game](https://asciinema.org/a/UiDNNnxOmdFGjLCRXOt2RiL4R.svg)](https://asciinema.org/a/UiDNNnxOmdFGjLCRXOt2RiL4R)
+[![asciicast](https://asciinema.org/a/lOyfWb42aQxHvgNWXcU0XC8Zp.svg)](https://asciinema.org/a/lOyfWb42aQxHvgNWXcU0XC8Zp)
 ### Brain Calc:
-[![Brain Calc Game](https://asciinema.org/a/2YssWYiDkzaOsunhEFmlk26Aj.svg)](https://asciinema.org/a/2YssWYiDkzaOsunhEFmlk26Aj)
+[![asciicast](https://asciinema.org/a/Ic8OBBOlrh0dqLQTlHzCbIHrL.svg)](https://asciinema.org/a/Ic8OBBOlrh0dqLQTlHzCbIHrL)
 ### Brain GCD:
-[![Brain GCD Game](https://asciinema.org/a/fHGf18iVvqEea7wK7AUOYadIm.svg)](https://asciinema.org/a/fHGf18iVvqEea7wK7AUOYadIm)
+[![asciicast](https://asciinema.org/a/FAvVNNJSnq8lmYBCBROssC77l.svg)](https://asciinema.org/a/FAvVNNJSnq8lmYBCBROssC77l)
+### Brain Progression
+[![asciicast](https://asciinema.org/a/6LbvUD4jK9PrN64MKmum6PAmb.svg)](https://asciinema.org/a/6LbvUD4jK9PrN64MKmum6PAmb)
+### Brain Prime
+[![asciicast](https://asciinema.org/a/cJVDd6bFpkKMEiruHkhq2R9zI.svg)](https://asciinema.org/a/cJVDd6bFpkKMEiruHkhq2R9zI)

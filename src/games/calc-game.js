@@ -1,6 +1,7 @@
 import getRandomNumber from '../randomgenerator.js';
 import startEngine from '../index.js';
 
+const description = 'What is the result of the expression?';
 const calcExpression = (num1, operator, num2) => {
   let result = '';
   if (operator === '+') {
@@ -23,7 +24,6 @@ const getAnswer = () => {
   return expected;
 };
 
-const description = 'What is the result of the expression?';
 const startGame = () => {
   startEngine(getAnswer, description);
 };
