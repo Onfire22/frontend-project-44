@@ -20,9 +20,9 @@ const getAnswer = () => {
   const number1 = getRandomNumber(2, 20);
   const number2 = getRandomNumber(2, 20);
   const operator = operators[getRandomNumber(0, 2)];
-  console.log(`Question: ${number1} ${operator} ${number2}`);
+  const question = `${number1} ${operator} ${number2}`;
   const expected = calculate(number1, operator, number2);
-  return String(expected);
+  return [String(expected), question];
 };
 
 const startGame = () => {

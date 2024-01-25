@@ -6,7 +6,8 @@ const startEngine = (getAnswer, description) => {
   console.log(`Hello, ${name}`);
   console.log(description);
   for (let i = 0; i < 3; i += 1) {
-    const expected = getAnswer();
+    const [expected, question] = getAnswer();
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== expected) {
       console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${expected}"`);

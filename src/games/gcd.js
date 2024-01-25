@@ -18,9 +18,9 @@ const searchGcd = (num1, num2) => {
 const getAnswer = () => {
   const random1 = getRandomNumber(2, 50);
   const random2 = getRandomNumber(2, 50);
-  console.log(`Question: ${random1} ${random2}`);
+  const question = `${random1} ${random2}`;
   const expected = searchGcd(random1, random2);
-  return String(expected);
+  return [String(expected), question];
 };
 
 const startGame = () => {

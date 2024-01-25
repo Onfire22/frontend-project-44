@@ -6,8 +6,8 @@ const isEven = (num) => num % 2 === 0;
 const getAnswer = () => {
   const random = getRandomNumber(2, 20);
   const expected = isEven(random) ? 'yes' : 'no';
-  console.log(`Question: ${random}`);
-  return expected;
+  const question = `${random}`;
+  return [expected, question];
 };
 
 const startGame = () => {

@@ -15,8 +15,8 @@ const isPrime = (num) => {
 const getAnswer = () => {
   const random = getRandomNumber(2, 20);
   const expected = isPrime(random) ? 'yes' : 'no';
-  console.log(`Question: ${random}`);
-  return expected;
+  const question = `${random}`;
+  return [expected, question];
 };
 
 const startGame = () => {

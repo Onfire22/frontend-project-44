@@ -22,8 +22,8 @@ const getAnswer = () => {
   const randomIndex = getRandomNumber(0, progression.length - 1);
   const expected = progression[randomIndex];
   progression[randomIndex] = '..';
-  console.log(`Question: ${progression.join(' ')}`);
-  return expected;
+  const question = `${progression.join(' ')}`;
+  return [expected, question];
 };
 
 const startGame = () => {
