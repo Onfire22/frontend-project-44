@@ -15,16 +15,16 @@ const searchGcd = (num1, num2) => {
   return b;
 };
 
-const getAnswer = () => {
+const generateRound = () => {
   const random1 = getRandomNumber(2, 50);
   const random2 = getRandomNumber(2, 50);
   const question = `${random1} ${random2}`;
-  const expected = searchGcd(random1, random2);
-  return [String(expected), question];
+  const answer = searchGcd(random1, random2);
+  return [String(answer), question];
 };
 
 const startGame = () => {
-  startEngine(getAnswer, description);
+  startEngine(generateRound, description);
 };
 
 export default startGame;

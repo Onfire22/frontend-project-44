@@ -11,21 +11,22 @@ const calculate = (num1, operator, num2) => {
     case '*':
       return num1 * num2;
     default:
-      throw new Error('Uncnown parametr!');
+      throw new Error(`Unknown parametr ${operator}!`);
   }
 };
 
-const getAnswer = () => {
+const generateRound = () => {
   const operators = ['+', '-', '*'];
+  const operatorsLength = 2;
   const number1 = getRandomNumber(2, 20);
   const number2 = getRandomNumber(2, 20);
-  const operator = operators[getRandomNumber(0, 2)];
+  const operator = operators[getRandomNumber(0, operatorsLength)];
   const question = `${number1} ${operator} ${number2}`;
-  const expected = calculate(number1, operator, number2);
-  return [String(expected), question];
+  const answer = calculate(number1, operator, number2);
+  return [String(answer), question];
 };
 
 const startGame = () => {
-  startEngine(getAnswer, description);
+  startEngine(generateRound, description);
 };
 export default startGame;
