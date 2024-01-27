@@ -13,7 +13,7 @@ const isPrime = (num) => {
 };
 
 const generateRound = () => {
-  const random = getRandomNumber(-1, 1);
+  const random = getRandomNumber(-20, 20);
   const answer = isPrime(random) ? 'yes' : 'no';
   const question = String(random);
   return [answer, question];
