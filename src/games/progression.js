@@ -5,11 +5,9 @@ const description = 'What number is missing in the progression?';
 const getProgression = (start, step, length) => {
   const progression = [];
   let begin = start;
-  let count = 0;
-  while (count < length) {
-    progression.push(String(begin));
+  for (let i = 0; i < length; i += 1) {
+    progression.push(begin);
     begin += step;
-    count += 1;
   }
   return progression;
 };
@@ -23,7 +21,7 @@ const generateRound = () => {
   const answer = progression[randomIndex];
   progression[randomIndex] = '..';
   const question = progression.join(' ');
-  return [answer, question];
+  return [String(answer), question];
 };
 
 const startGame = () => {
