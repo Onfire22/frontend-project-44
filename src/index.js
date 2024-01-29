@@ -5,13 +5,13 @@ const startEngine = (generateRound, description) => {
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}`);
   console.log(description);
-  const rounds = 3;
-  for (let i = 0; i < rounds; i += 1) {
-    const [expected, question] = generateRound();
+  const roundsCount = 3;
+  for (let i = 0; i < roundsCount; i += 1) {
+    const [answer, question] = generateRound();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer !== expected) {
-      console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${expected}"`);
+    if (userAnswer !== answer) {
+      console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}"`);
       console.log(`Let's try again, ${name}!`);
       return;
     }
