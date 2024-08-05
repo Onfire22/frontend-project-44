@@ -1,9 +1,10 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Onfire22/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Onfire22/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/01853bed23d228852ceb/maintainability)](https://codeclimate.com/github/Onfire22/frontend-project-44/maintainability)
-### Устновка и запуск:
-1. sudo npm link в корне проекта
-2. для запуска игры ввести в терминале:
+### Installation:
+1. git clone
+2. sudo npm link 
+3. game supports next commands:
   + brain-even
   + brain-calc
   + brain-gcd
